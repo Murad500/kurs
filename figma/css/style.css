@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 100%;
+  background: rgba(119, 255, 133, 0.3);
+}
+#header .box {
+  position: relative;
+}
+#header .box .logo {
+  padding-top: 10px;
+  margin-left: 20px;
+}
+#header .box .logo h1 {
+  font-size: 30px;
+  margin: 2px 0 0 5px;
+}
+#header .box .ulli {
+  position: absolute;
+  top: 40%;
+  left: 38%;
+}
+#header .box .ulli li {
+  margin-left: 25px;
+  list-style: none;
+}
+#header .box .ulli li .son {
+  border: 1px solid #14DA7A;
+  background-color: #14DA7A;
+  padding: 6px 10px;
+  color: white;
+  margin-left: 13px;
+  border-radius: 10mm;
+}
+#header .box .ulli li a {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 17px;
+  text-decoration: none;
+  padding: 0 25px;
+}
+
+#tree {
+  background: rgba(119, 255, 133, 0.3);
+}
+#tree .boxes {
+  position: relative;
+  padding-top: 4rem;
+}
+#tree .boxes .one {
+  margin-top: 5rem;
+}
+#tree .boxes .one h1 {
+  margin-top: 2rem;
+  font-size: 45px;
+  width: 90%;
+  font-weight: bolder;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#tree .boxes .one .a-tag {
+  margin-top: 40px;
+}
+#tree .boxes .one .a-tag .a-one {
+  background-color: #1BDB38;
+  padding: 10px 12px;
+  transition: 0.5s ease-in-out;
+  border-radius: 8mm;
+}
+#tree .boxes .one .a-tag .a-one a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+#tree .boxes .one .a-tag .a-one:hover {
+  background-color: white;
+}
+#tree .boxes .one .a-tag .a-one:hover a {
+  color: #1BDB38;
+}
+#tree .boxes .one .a-tag a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  margin-left: 20px;
+}
+#tree .boxes .two {
+  position: relative;
+  left: 3.82%;
+}
+
+#footer {
+  width: 100%;
+  background: rgba(80, 153, 16, 0.49);
+  background-image: url(../img/Vector\ 8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#footer .foot {
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  padding-top: 60px;
+}
+#footer .foot img {
+  width: 100%;
+  margin-left: 40px;
+}
+#footer .foot p {
+  color: white;
+  font-weight: 800;
+  padding-left: 30px;
+}
+#footer .foot li {
+  color: white;
+  list-style: none;
+  font-weight: 500;
+}
+#footer .foot i {
+  color: white;
+}
+#footer .foot .google {
+  margin-top: 15px;
+  border-radius: 5px;
+  width: 70%;
+  height: 20%;
+  background-color: black;
+  position: relative;
+}
+#footer .foot .google .icon {
+  width: 30%;
+  padding: 8px;
+}
+#footer .foot .google .get {
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  left: 30%;
+}
+#footer .foot .google .get p {
+  font-size: 10px;
+  padding: 5px 0 0 5px;
+}
+#footer .foot .app {
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 70%;
+  height: 20%;
+  background-color: black;
+  position: relative;
+}
+#footer .foot .app .icon1 {
+  width: 30%;
+  padding: 8px;
+}
+#footer .foot .app .get1 {
+  width: 75%;
+  height: 100%;
+  position: absolute;
+  bottom: 8%;
+  left: 20%;
+}
+#footer .foot .app .get1 p {
+  font-size: 10px;
+  padding: 5px 0 0 3px;
+}
+
+#products {
+  background-color: #E7EBDF;
+}
+#products .box {
+  padding: 20px 0;
+}
+#products .box img {
+  margin: 30px 0;
+}
+#products .box .boxes {
+  background-color: white;
+}
+#products .box .boxes .one {
+  font-size: 18px;
+  margin-left: 6.5rem;
+}
+#products .box .boxes .two {
+  font-size: 20px;
+  margin-left: 9.5rem;
+  margin-bottom: 10px;
+}
+#products .box .boxes i {
+  color: gold;
+  margin: 0 2px;
+}
+#products .box .boxes a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  background-color: #1BDB38;
+}
+#products .box .boxes span {
+  margin-left: 5px;
+  padding: 1px 8px;
+  color: #494949;
+  border-radius: 2mm;
+  border: 0.2px solid #494949;
+}
+
+#icon {
+  background-color: #E7EBDF;
+}
+#icon a {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 95%;
+  color: black;
+  transition: 0.5s ease-in-out;
+}
+#icon a i {
+  font-size: 20px;
+  padding: 5px;
+  border: 1px solid #494949;
+  border-radius: 8mm;
+}
+#icon a:hover {
+  background-color: black;
+  border-radius: 8mm;
+}
+#icon a:hover i {
+  color: white;
+}
+
+@media (max-width: 572px) {
+  #products {
+    width: 100%;
+    height: 100vh;
+  }
+  #products .box .boxes .one {
+    font-size: 12px;
+    margin-left: 2.5rem;
+  }
+  #products .box .boxes .two {
+    font-size: 14px;
+    margin-left: 4.4rem;
+    margin-bottom: 1px;
+  }
+  #products .box .boxes i {
+    font-size: 10px;
+    margin-left: 17px;
+    margin-bottom: 7px;
+  }
+  #products .box .boxes a {
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 37px;
+    margin-bottom: 8px;
+  }
+  #products .box .boxes span {
+    font-size: 12px;
+    margin-left: 20px;
+  }
+  #icon {
+    height: 85vh;
+  }
+  #icon a {
+    display: inline-block;
+    margin: 75% 0 0 87%;
+  }
+  #header {
+    display: none;
+  }
+  #tree {
+    width: 99%;
+  }
+}/*# sourceMappingURL=style.css.map */

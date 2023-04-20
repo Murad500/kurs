@@ -1,0 +1,25 @@
+<section id="service">
+        <div class="txt0">
+            <h1>At Your Service</h1>
+            <hr>
+           <div class="i1">
+            <i class="fa-light fa-gem"></i>
+            <h2>Sturdy Themes</h2>
+            <p>Our themes are updated regularly to keep them bug free!</p>
+        </div>
+        <div class="i2">
+            <i class="fa-solid fa-laptop"></i>
+            <h2>Up to Date</h2>
+            <p>All dependencies are kept current to keep things fresh.</p>
+        </div>
+        <div class="i3">
+            <i class="fa-regular fa-globe"></i>
+            <h2>Ready to Publish</h2>
+            <p>You can use this design as is, or you can make changes!</p>
+        </div>
+        <div class="i4">
+            <i class="fa-regular fa-heart"></i>
+            <h2>Made with Love</h2>
+            <p>Is it really open source if it's not made with love?</p>
+        </div>
+        </div>

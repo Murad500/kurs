@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box ul li {
+  list-style: none;
+}
+.box ul li a {
+  text-decoration: none;
+  display: none;
+}
+.box ul li :nth-child(3) a {
+  color: red;
+  display: none;
+}/*# sourceMappingURL=style.css.map */

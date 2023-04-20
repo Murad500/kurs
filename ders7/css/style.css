@@ -1,0 +1,968 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#con {
+  background-color: rebeccapurple;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-style {
+  list-style: none;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.text-align {
+  text-align: center;
+}
+
+#logo {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  height: 10vh;
+  background-color: white;
+}
+#logo .logo1 {
+  padding: 15px 0 0 80px;
+  position: relative;
+}
+#logo .logo1 ul {
+  position: absolute;
+  left: 45%;
+}
+#logo .logo1 ul li:first-child a {
+  color: #8490FF;
+}
+#logo .logo1 ul li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 15px 20px 15px;
+  color: black;
+  font-size: 13px;
+  transition: 0.5s ease-in-out;
+}
+#logo .logo1 ul li a:hover {
+  color: #8490FF;
+}
+
+#this {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 108.7vh;
+  padding: 100px 0 0 90px;
+  background-color: #F9F9FF;
+}
+#this .this1 {
+  width: 45%;
+  padding: 110px 0 0 0;
+}
+#this .this1 h5 {
+  font-size: 16px;
+  font-weight: 450;
+  padding-bottom: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#this .this1 h1 {
+  font-size: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-bottom: 30px;
+}
+#this .this1 span {
+  color: #818184;
+  font-size: 18px;
+}
+#this .this1 a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 22px;
+  color: white;
+  text-decoration: none;
+  background-color: #77A1FE;
+}
+#this .this2 {
+  width: 40%;
+  margin-left: 49px;
+}
+
+#personal {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  align-items: center;
+  padding-left: 49px;
+}
+#personal .personal1 {
+  width: 45%;
+}
+#personal .personal2 {
+  width: 38%;
+  margin-left: 80px;
+}
+#personal .personal2 h5 {
+  font-size: 16px;
+  font-weight: 450;
+  padding-bottom: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#personal .personal2 h1 {
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-bottom: 40px;
+}
+#personal .personal2 span {
+  color: #818184;
+  font-size: 18px;
+}
+#personal .personal2 a {
+  display: inline-block;
+  margin-top: 45px;
+  padding: 10px 22px;
+  color: white;
+  text-decoration: none;
+  background-color: #77A1FE;
+}
+
+#services {
+  width: 100%;
+  height: 120vh;
+}
+#services .services1 {
+  text-align: center;
+}
+#services .services1 h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+#services .services1 span {
+  margin-bottom: 75px;
+  display: inline-block;
+  font-size: 17px;
+  color: #5e5e5f;
+  width: 47%;
+}
+#services .services2 {
+  justify-content: center;
+  width: 100%;
+}
+#services .services2 .one {
+  width: 30%;
+  margin-bottom: 90px;
+}
+#services .services2 .one i {
+  font-size: 35px;
+  transition: 0.5s ease-in-out;
+  padding: 0 0 7% 30%;
+}
+#services .services2 .one a {
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+  padding: 0 0 5% 22%;
+  font-size: 22px;
+  color: black;
+  display: inline-block;
+}
+#services .services2 .one span {
+  color: #5e5e5f;
+  font-size: 17px;
+  display: inline-block;
+  width: 75%;
+}
+#services .services2 .one:hover i {
+  color: #8490FF;
+}
+#services .services2 .one:hover a {
+  color: #8490FF;
+}
+#services .services2 .two {
+  width: 30%;
+}
+#services .services2 .two i {
+  font-size: 35px;
+  padding: 0 0 7% 30%;
+  transition: 0.5s ease-in-out;
+}
+#services .services2 .two a {
+  text-decoration: none;
+  padding: 0 0 5% 15%;
+  transition: 0.5s ease-in-out;
+  font-size: 22px;
+  color: black;
+  display: inline-block;
+}
+#services .services2 .two span {
+  color: #5e5e5f;
+  font-size: 17px;
+  display: inline-block;
+  width: 75%;
+}
+#services .services2 .two:hover i {
+  color: #8490FF;
+}
+#services .services2 .two:hover a {
+  color: #8490FF;
+}
+#services .services2 .three {
+  width: 30%;
+}
+#services .services2 .three i {
+  font-size: 35px;
+  transition: 0.5s ease-in-out;
+  padding: 0 0 7% 30%;
+}
+#services .services2 .three a {
+  text-decoration: none;
+  padding: 0 0 5% 21%;
+  transition: 0.5s ease-in-out;
+  font-size: 22px;
+  color: black;
+  display: inline-block;
+}
+#services .services2 .three span {
+  color: #5e5e5f;
+  font-size: 17px;
+  display: inline-block;
+  width: 75%;
+}
+#services .services2 .three:hover i {
+  color: #8490FF;
+}
+#services .services2 .three:hover a {
+  color: #8490FF;
+}
+#services .services2 .four {
+  width: 30%;
+}
+#services .services2 .four i {
+  font-size: 35px;
+  padding: 0 0 7% 30%;
+  transition: 0.5s ease-in-out;
+}
+#services .services2 .four a {
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+  padding: 0 0 5% 19.5%;
+  font-size: 22px;
+  color: black;
+  display: inline-block;
+}
+#services .services2 .four span {
+  color: #5e5e5f;
+  font-size: 17px;
+  display: inline-block;
+  width: 75%;
+}
+#services .services2 .four:hover i {
+  color: #8490FF;
+}
+#services .services2 .four:hover a {
+  color: #8490FF;
+}
+#services .services2 .five {
+  width: 30%;
+}
+#services .services2 .five i {
+  font-size: 35px;
+  padding: 0 0 7% 30%;
+  transition: 0.5s ease-in-out;
+}
+#services .services2 .five a {
+  text-decoration: none;
+  padding: 0 0 5% 18%;
+  transition: 0.5s ease-in-out;
+  font-size: 22px;
+  color: black;
+  display: inline-block;
+}
+#services .services2 .five span {
+  color: #5e5e5f;
+  font-size: 17px;
+  display: inline-block;
+  width: 75%;
+}
+#services .services2 .five:hover i {
+  color: #8490FF;
+}
+#services .services2 .five:hover a {
+  color: #8490FF;
+}
+#services .services2 .six {
+  width: 30%;
+}
+#services .services2 .six i {
+  font-size: 35px;
+  padding: 0 0 7% 30%;
+  transition: 0.5s ease-in-out;
+}
+#services .services2 .six a {
+  text-decoration: none;
+  padding: 0 0 5% 19%;
+  font-size: 22px;
+  color: black;
+  display: inline-block;
+  transition: 0.5s ease-in-out;
+}
+#services .services2 .six span {
+  color: #5e5e5f;
+  font-size: 17px;
+  display: inline-block;
+  width: 75%;
+}
+#services .services2 .six:hover i {
+  color: #8490FF;
+}
+#services .services2 .six:hover a {
+  color: #8490FF;
+}
+
+#box {
+  width: 100%;
+  background-color: #73A6FD;
+  height: 40vh;
+}
+#box .box1 {
+  padding: 8% 0 0 14%;
+}
+#box .box1 h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#box .box1 span {
+  color: white;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#box .box1 .box2 {
+  margin: 0 70px;
+}
+#box .box1 .box2 h1 {
+  padding-left: 20px;
+}
+#box .box1 .box3 {
+  margin: 0 70px;
+}
+#box .box1 .box4 {
+  margin: 0 70px;
+}
+#box .box1 .box5 {
+  margin: 0 70px;
+}
+#box .box1 .box5 h1 {
+  padding-left: 25px;
+}
+
+#foto {
+  margin-top: 100px;
+  width: 100%;
+  height: 200vh;
+}
+#foto .foto1 h1 {
+  padding-bottom: 10px;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#foto .foto1 span {
+  color: #818184;
+  font-size: 17px;
+}
+#foto .foto2 {
+  display: flex;
+  justify-content: center;
+}
+#foto .foto2 .foto3 li {
+  position: relative;
+}
+#foto .foto2 .foto3 li:first-child a {
+  color: #8490FF;
+}
+#foto .foto2 .foto3 li a {
+  display: inline-block;
+  padding: 100px 20px 80px 20px;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+#foto .foto2 .foto3 li a:hover::before {
+  width: 30%;
+  transition: 0.5s ease-in-out;
+}
+#foto .foto2 .foto3 li a::before {
+  content: "";
+  position: absolute;
+  background-color: #000000;
+  top: 60%;
+  width: 0;
+  height: 0.6vh;
+}
+#foto .foto4 {
+  width: 100%;
+  padding-left: 45px;
+  justify-content: center;
+  align-items: center;
+}
+#foto .foto4 .foto5 {
+  width: 30%;
+  padding-bottom: 40px;
+}
+#foto .foto4 .foto5 h1 {
+  padding: 20px 0 0 90px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#foto .foto4 .foto5 span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-left: 37%;
+}
+#foto .foto4 .foto6 {
+  width: 30%;
+  padding-bottom: 40px;
+}
+#foto .foto4 .foto6 h1 {
+  padding: 20px 0 0 90px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#foto .foto4 .foto6 span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-left: 37%;
+}
+#foto .foto4 .foto7 {
+  width: 30%;
+  padding-bottom: 40px;
+}
+#foto .foto4 .foto7 h1 {
+  padding: 20px 0 0 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#foto .foto4 .foto7 span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-left: 39%;
+}
+#foto .foto4 .foto8 {
+  width: 30%;
+}
+#foto .foto4 .foto8 h1 {
+  padding: 20px 0 0 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#foto .foto4 .foto8 span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-left: 35%;
+}
+#foto .foto4 .foto9 {
+  width: 30%;
+}
+#foto .foto4 .foto9 h1 {
+  padding: 20px 0 0 70px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#foto .foto4 .foto9 span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-left: 37%;
+}
+#foto .foto4 .foto10 {
+  width: 30%;
+}
+#foto .foto4 .foto10 h1 {
+  padding: 20px 0 0 90px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#foto .foto4 .foto10 span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-left: 39%;
+}
+
+#client {
+  width: 100%;
+  height: 100vh;
+  background-color: #F9F9FF;
+}
+#client .client1 {
+  text-align: center;
+  padding-top: 100px;
+}
+#client .client1 h1 {
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#client .client1 span {
+  color: #5e5e5f;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#client .client2 {
+  width: 100%;
+  padding: 90px 0 0 70px;
+}
+#client .client2 .client3 {
+  width: 40%;
+  padding: 40px;
+  background-color: white;
+}
+#client .client2 .client3 a {
+  display: inline-block;
+  text-decoration: none;
+  color: #5e5e5f;
+}
+#client .client2 .client3 a .mm {
+  width: 100%;
+}
+#client .client2 .client3 a .mm .mmm {
+  width: 20%;
+}
+#client .client2 .client3 a .mm .mmm img {
+  width: 70%;
+}
+#client .client2 .client3 a .mm .mmmm {
+  width: 80%;
+}
+#client .client2 .client3 a span h2 {
+  font-size: 22px;
+  color: black;
+}
+#client .client2 .client3 a span h4 {
+  font-size: 16px;
+}
+#client .client2 .client3:hover a span h2 {
+  color: #8490FF;
+}
+#client .client2 .client4 {
+  width: 40%;
+  background-color: white;
+  padding: 40px;
+  margin-left: 20px;
+}
+#client .client2 .client4 img {
+  width: 10%;
+  margin: 20px;
+}
+#client .client2 .client4 a {
+  display: inline-block;
+  text-decoration: none;
+  color: #5e5e5f;
+}
+#client .client2 .client4 a .mm {
+  width: 100%;
+}
+#client .client2 .client4 a .mm .mmm {
+  width: 20%;
+}
+#client .client2 .client4 a .mm .mmm img {
+  width: 70%;
+}
+#client .client2 .client4 a .mm .mmmm {
+  width: 80%;
+}
+#client .client2 .client4 a span h2 {
+  font-size: 22px;
+  color: black;
+}
+#client .client2 .client4 a span h4 {
+  font-size: 16px;
+}
+#client .client2 .client4:hover a span h2 {
+  color: #8490FF;
+}
+#client .client5 a {
+  position: relative;
+  display: inline-block;
+  margin: 85px 0 0 70px;
+  font-size: 20px;
+  padding: 15px 20px 15px 20px;
+  border: 2px solid black;
+  background-color: white;
+  transition: 0.6s ease-in-out;
+}
+#client .client5 a i {
+  color: black;
+}
+#client .client5 a hr {
+  width: 100%;
+  top: 50%;
+  left: 0;
+  color: black;
+  position: absolute;
+}
+#client .client5:hover a {
+  background-color: #8490FF;
+}
+
+#plan {
+  padding-top: 100px;
+}
+#plan .plan1 h1 {
+  font-size: 45px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#plan .plan1 span {
+  font-size: 19px;
+  color: #5e5e5f;
+}
+#plan .plan2 {
+  justify-content: center;
+  background-color: #f4f4fe;
+  width: 90%;
+  margin: 100px 0 0 70px;
+  height: 60vh;
+}
+#plan .plan2 .plan3 {
+  margin: 20px;
+}
+#plan .plan2 .plan3:hover a {
+  background-color: #8490FF;
+}
+#plan .plan2 .plan3 a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 50px 30px;
+  transition: 0.2s ease-in-out;
+  transform: scale(1);
+}
+#plan .plan2 .plan3 a .plann h1 {
+  color: black;
+  font-size: 45px;
+  padding-left: 70px;
+}
+#plan .plan2 .plan3 a h4 {
+  color: black;
+  padding-left: 55px;
+  padding-bottom: 10px;
+}
+#plan .plan2 .plan3 a span {
+  color: #5e5e5f;
+  padding-left: 25px;
+}
+#plan .plan2 .plan3 a li {
+  list-style: none;
+  color: #5e5e5f;
+}
+#plan .plan2 .plan3 a hr {
+  color: #e0d8d8;
+  width: 90%;
+  margin-left: 8px;
+}
+#plan .plan2 .plan3 a h1 {
+  color: black;
+  font-size: 35px;
+  padding-left: 30px;
+}
+#plan .plan2 .plan3 a:hover {
+  transform: scale(1.1);
+  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+#plan .plan2 .plan4 {
+  margin: 20px;
+}
+#plan .plan2 .plan4:hover a {
+  background-color: #8490FF;
+}
+#plan .plan2 .plan4 a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 50px 30px;
+  transition: 0.2s ease-in-out;
+  transform: scale(1);
+}
+#plan .plan2 .plan4 a:hover {
+  transform: scale(1.1);
+  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+#plan .plan2 .plan4 a .plann h1 {
+  color: black;
+  font-size: 45px;
+  padding-left: 70px;
+}
+#plan .plan2 .plan4 a h4 {
+  color: black;
+  padding-left: 55px;
+  padding-bottom: 10px;
+}
+#plan .plan2 .plan4 a span {
+  color: #5e5e5f;
+  padding-left: 25px;
+}
+#plan .plan2 .plan4 a li {
+  list-style: none;
+  color: #5e5e5f;
+}
+#plan .plan2 .plan4 a hr {
+  color: #e0d8d8;
+  width: 90%;
+  margin-left: 8px;
+}
+#plan .plan2 .plan4 a h1 {
+  color: black;
+  font-size: 35px;
+  padding-left: 30px;
+}
+#plan .plan2 .plan5 {
+  margin: 20px;
+}
+#plan .plan2 .plan5:hover a {
+  background-color: #8490FF;
+}
+#plan .plan2 .plan5 a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 50px 30px;
+  transition: 0.2s ease-in-out;
+  transform: scale(1);
+}
+#plan .plan2 .plan5 a:hover {
+  transform: scale(1.1);
+  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+#plan .plan2 .plan5 a .plann h1 {
+  color: black;
+  font-size: 45px;
+  padding-left: 70px;
+}
+#plan .plan2 .plan5 a h4 {
+  color: black;
+  padding-left: 55px;
+  padding-bottom: 10px;
+}
+#plan .plan2 .plan5 a span {
+  color: #5e5e5f;
+  padding-left: 25px;
+}
+#plan .plan2 .plan5 a li {
+  list-style: none;
+  color: #5e5e5f;
+}
+#plan .plan2 .plan5 a hr {
+  color: #e0d8d8;
+  width: 90%;
+  margin-left: 8px;
+}
+#plan .plan2 .plan5 a h1 {
+  color: black;
+  font-size: 35px;
+  padding-left: 30px;
+}
+#plan .plan2 .plan6 {
+  margin: 20px;
+}
+#plan .plan2 .plan6:hover a {
+  background-color: #8490FF;
+}
+#plan .plan2 .plan6 a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 50px 30px;
+  transition: 0.2s ease-in-out;
+  transform: scale(1);
+}
+#plan .plan2 .plan6 a:hover {
+  transform: scale(1.1);
+  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+#plan .plan2 .plan6 a .plann h1 {
+  color: black;
+  font-size: 45px;
+  padding-left: 70px;
+}
+#plan .plan2 .plan6 a h4 {
+  color: black;
+  padding-left: 55px;
+  padding-bottom: 10px;
+}
+#plan .plan2 .plan6 a span {
+  color: #5e5e5f;
+  padding-left: 25px;
+}
+#plan .plan2 .plan6 a li {
+  list-style: none;
+  color: #5e5e5f;
+}
+#plan .plan2 .plan6 a hr {
+  color: #e0d8d8;
+  width: 90%;
+  margin-left: 8px;
+}
+#plan .plan2 .plan6 a h1 {
+  color: black;
+  font-size: 35px;
+  padding-left: 30px;
+}
+
+#img {
+  margin-top: 100px;
+  background-color: #f4f4fe;
+}
+#img .img1 {
+  padding-top: 100px;
+}
+#img .img1 h1 {
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#img .img1 span {
+  color: #5e5e5f;
+  display: inline-block;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 55%;
+  padding-bottom: 70px;
+}
+#img .img2 {
+  width: 100%;
+  padding-left: 90px;
+}
+#img .img2 .img3 {
+  width: 31%;
+  margin: 0 10px;
+}
+#img .img2 .img3:hover a h3 {
+  color: #8490FF;
+}
+#img .img2 .img3 a {
+  text-decoration: none;
+  color: black;
+}
+#img .img2 .img3 a h3 {
+  transition: 0.6s ease-in-out;
+  font-size: 18.5px;
+  font-weight: bolder;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#img .img2 .img3 a span {
+  color: #5e5e5f;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#img .img2 .img4 {
+  width: 31%;
+  margin: 0 10px;
+}
+#img .img2 .img4:hover a h3 {
+  color: #8490FF;
+}
+#img .img2 .img4 a {
+  text-decoration: none;
+  color: black;
+}
+#img .img2 .img4 a h3 {
+  transition: 0.6s ease-in-out;
+  font-size: 18.5px;
+  font-weight: bolder;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#img .img2 .img4 a span {
+  color: #5e5e5f;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#img .img5 {
+  width: 31%;
+  margin: 0 10px;
+}
+#img .img5:hover a h3 {
+  color: #8490FF;
+}
+#img .img5 a {
+  text-decoration: none;
+  color: black;
+}
+#img .img5 a h3 {
+  transition: 0.6 ease-in-out;
+  font-size: 19.3px;
+  font-weight: bolder;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#img .img5 a span {
+  color: #5e5e5f;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#end {
+  margin-top: 10%;
+}
+#end .end1 {
+  width: 100%;
+  background-color: #6BB1FC;
+  padding-left: 90px;
+}
+#end .end1 a {
+  text-decoration: none;
+  display: inline-block;
+}
+#end .end1 a img {
+  padding: 60px 55px;
+}
+#end .end1:hover a {
+  background-color: #ffffff;
+}
+#end .son {
+  width: 100%;
+  height: 50vh;
+  padding-left: 100px;
+  background-color: #04091E;
+}
+#end .son .son1 {
+  width: 28%;
+  margin: 100px 100px 0 0;
+}
+#end .son .son1 span {
+  color: #5e5e5f;
+}
+#end .son .son1 a {
+  text-decoration: none;
+  color: #8490FF;
+}
+#end .son .son1 h3 {
+  color: white;
+}
+#end .son .son2 {
+  width: 28%;
+  margin: 100px 50px 0 0;
+}
+#end .son .son2 span {
+  color: #5e5e5f;
+}
+#end .son .son2 i {
+  color: white;
+  font-size: 22px;
+  padding: 0 2px 3px 2px;
+  background-color: #8490FF;
+}
+#end .son .son2 input {
+  font-size: 18px;
+}
+#end .son .son2 h3 {
+  color: white;
+}
+#end .son .son3 {
+  width: 28%;
+  margin: 100px 0 0 0;
+}
+#end .son .son3 span {
+  color: #5e5e5f;
+}
+#end .son .son3 i {
+  color: white;
+  margin: 0 0 0 10px;
+  transition: 0.5s ease-in-out;
+}
+#end .son .son3 h3 {
+  color: white;
+}
+#end .son .son3:hover i {
+  color: #8490FF;
+}/*# sourceMappingURL=style.css.map */

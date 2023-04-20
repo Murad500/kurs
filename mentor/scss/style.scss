@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    // width: 80%;
+    // margin: 30px auto;
+    // height: 70vh;
+    // border: 3px dashed green;
+    // position: relative;
+    // .btn1{
+    //     padding: 15px 20px;
+    //     position: relative;
+    //     top: 50%;
+    //     left: 50%;
+    //     transform: translate(-50%,-50%);
+
+    //     &::before{
+    //         width: 100%;
+    //     }
+    // }
+    ul{
+        li{
+            list-style: none;
+            a{
+text-decoration: none;
+display: none;
+            }
+            :nth-child(3){
+                a{
+                    color: red;
+                    display: none;
+                }
+            }
+        }
+    }
+}

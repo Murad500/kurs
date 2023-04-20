@@ -1,0 +1,182 @@
+htmlda
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+         <div class="logo">
+         <a href="#">START BOOTSTRAP</a>
+         
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="">PORTFOLIO</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+        </header>
+        
+        <section id="designer">
+            <div class="box-text">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <img  src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt="">
+            <br>
+            <br>
+                <h1>START BOOTSTRAP</h1>
+                <br>
+            <i class="fa-solid fa-star"></i>
+            <br>
+            <br>
+            <br>
+            <span>Graphic Artist - Web Designer - Illustrator</span>
+
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <section id="pay">
+            <div class="one">
+                <h1>PORTFOLIO</h1>
+                <br>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </section>
+        <section id="portfolio">
+            <div class="box">
+                 <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt="">
+            </div>
+           <div class="box">
+            <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png" alt="" alt="">
+           </div>
+           <div class="box">
+            <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png" alt="" alt="">
+           </div>
+           <div class="box">
+            <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png" alt="" alt="">
+           </div>
+           <div class="box">
+            <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png" alt="" alt="">
+           </div>
+           <div class="box">
+            <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png" alt="" alt="">
+           </div>
+        </section>
+       
+</body>
+</html>
+
+cssde
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+
+#header{
+    background-color: #2C3E50;
+    padding: 20px 0px;
+
+}
+
+#header .logo{
+    float: left;
+}
+
+#header .logo a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 25px;
+}
+
+#header .menu{
+    float: right;
+}
+#header .menu ul li{
+    float: left;
+    list-style: none;
+}
+#header .menu ul li a{
+    color: #fff;
+    padding: 0px 15px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#designer{
+    width: 100%;
+    height: 100vh;
+    background-color: #1abc9c;
+}
+#designer .box-text{
+    text-align: center;
+}
+#designer .box-text img{
+    width: 250px;
+    text-align: center;
+}    
+#designer .box-text h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#designer .box-text i{
+    font-size: 35px;
+    color: #fff;
+}
+#designer .box-text span{
+    font-size: 25px;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#pay .one{
+    text-align: center;
+}
+#pay .one h1{
+    color: #2C3E50;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#pay .one i{
+    font-size: 30px;
+    color: #2C3E50;
+}
+#portfolio{
+    padding: 2rem 0;
+}
+#portfolio .box{
+   width: 30%;
+   float: left;
+   margin: 20px;
+
+}
+#portfolio .box img{
+    width: 100%;
+    vertical-align: middle;
+}
